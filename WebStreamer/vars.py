@@ -13,7 +13,7 @@ class Var(object):
     API_ID = 7556932
     API_HASH = 6b99e012069f373abbcac581d3cdd6db
     BOT_TOKEN = 6113208354:AAGPCqOyosUwXTHuo79oDpFtFcJ6U6a3Xho
-    SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
+    SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "10"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(
         environ.get("BIN_CHANNEL", None)
